@@ -1,0 +1,52 @@
+body{
+    color: white;  background-image: url('thumb2-botafogo-4k-metal-logo-creative-art-brazilian-football-club.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+article{
+    display: flex; 
+    align-items: flex-start; 
+    gap: 1em; 
+    flex-direction: row;
+}
+
+img{
+    border: 2px solid white;
+}
+
+.quadro-jogador{
+    width: fit-content; 
+    margin: auto;
+}
+
+.detalhes-jogador{
+    border: 2px solid gray; 
+    text-align: center; 
+    text-transform: uppercase;
+}
+
+.info-completa{
+    border: 2px solid white; 
+    padding: 5px; 
+    font-size: 1.3em;
+}
+
+a{
+    text-decoration: none; 
+    color: white; 
+    font-weight: 600; 
+    font-size: 2em; 
+    display: block; 
+    text-align: center;
+}
+
+#texto-espera{
+    animation: 1s ease-out 0s infinite normal none running blink; 
+    margin: auto; 
+    width: min-content; 
+    color: white; 
+    position: relative; 
+    top: 469.5px;
+}
